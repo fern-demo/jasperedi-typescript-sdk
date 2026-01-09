@@ -3,7 +3,22 @@
 [![fern shield](https://img.shields.io/badge/%F0%9F%8C%BF-Built%20with%20Fern-brightgreen)](https://buildwithfern.com?utm_source=github&utm_medium=github&utm_campaign=readme&utm_source=https%3A%2F%2Fgithub.com%2Fcdonel707%2Fjasperedi-typescript-sdk)
 [![npm shield](https://img.shields.io/npm/v/startersdk)](https://www.npmjs.com/package/startersdk)
 
-The Fernstarterpack TypeScript library provides convenient access to the Fernstarterpack API from TypeScript.
+The Fernstarterpack TypeScript library provides convenient access to the Fernstarterpack APIs from TypeScript.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Reference](#reference)
+- [Usage](#usage)
+- [Request and Response Types](#request-and-response-types)
+- [Exception Handling](#exception-handling)
+- [Advanced](#advanced)
+    - [Additional Headers](#additional-headers)
+    - [Retries](#retries)
+    - [Timeouts](#timeouts)
+    - [Aborting Requests](#aborting-requests)
+    - [Runtime Compatibility](#runtime-compatibility)
+- [Contributing](#contributing)
 
 ## Installation
 
@@ -13,7 +28,7 @@ npm i -s startersdk
 
 ## Reference
 
-A full reference for this library is available [here](./reference.md).
+A full reference for this library is available [here](https://github.com/cdonel707/jasperedi-typescript-sdk/blob/HEAD/./reference.md).
 
 ## Usage
 
@@ -38,7 +53,7 @@ await client.eligibilityInquiry.medicareObProcessMain({
 });
 ```
 
-## Request And Response Types
+## Request and Response Types
 
 The SDK exports all request and response types as TypeScript interfaces. Simply import them with the
 following namespace:

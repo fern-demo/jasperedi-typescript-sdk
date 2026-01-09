@@ -1,3 +1,4 @@
+export * from "./EligibilityInquiryRequestDetailReferenceOne";
 export * from "./EligibilityInquiryRequestDetailReference";
 export * from "./EligibilityInquiryRequestDetailSubscriberGender";
 export * from "./EligibilityInquiryRequestDetailSubscriber";
